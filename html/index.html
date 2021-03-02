@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>N-Sign</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+<!--   <link rel="stylesheet" href="css/docs.theme.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <!-- ------------------------ navbar menu ------------------------ -->
+  <section>
+    <div class=" navbar-info">
+      <div class="container top-header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 left">
+            <a href="index.html"><img src="images/logo.png" title="Logo"></a>
+          </div>
+          <div class="col-xs-12 col-sm-4 middle text-center hidden-xs"><h2>Street Name Plates</h2></div>
+          <div class="col-xs-12 col-sm-4 left hidden-xs text-right">
+            <a href="index.html"><img src="images/logo.png" title="Logo"></a>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-default navbar-me">
+        <div class="container">
+          <div class="col-xs-12 col-sm-12">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header hidden-sm hidden-md hidden-lg">
+              <button type="button" class="navbar-toggle collapsed menu-collapsed-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a class="navbar-brand site-logo" href="#">NSign</a> -->
+            </div>
+              
+            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+              <ul class="nav navbar-nav ">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end of navbar-->
+  </section>
+  <!-- ------------------------ End navbar menu ------------------------ -->
+
+  <section>
+    <div class="banner">
+      <!-- <img src="images/banner-5-1.jpg" class="img-responsive" alt="Banner" title="Banner"> -->
+      <div class="container">
+        <div class="row">
+          <form>
+          <div class="col-xs-12 col-sm-12 left">
+            <div class="inner-left">
+              <!-- <img src="images/frame-2.png" class="img-responsive"> -->
+              <div class="forms-div">
+                
+                    <div class="price hidden-xs hidden-sm hidden-md hidden-lg">
+                      <label>Price</label> :- <span> <strong>$ 25</strong></span>
+                    </div>
+                    <select name="type" id="council_select">
+                        <option name="letter" value="letter">Select Council Name</option>
+                        <option name="parcel" value="parcel">Council 1</option>
+                        <option name="parcel" value="parcel">Council 2</option>
+                    </select>
+                    <div class="clearfix"></div>
+
+                </div>
+                <div class="bottom-div" id="council" style="display: none;">
+                  <div class="col-xs-12 col-sm-6 left-side">
+                    <div class="form-group">
+                      <label>Do You Require Road Symbol ?</label><br>
+                      <input type="radio" name="yes" value="yes" class="post_wall road-symbol"> &nbsp;&nbsp; Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="radio" name="yes" value="no" class="post_wall road-symbol-no"> &nbsp;&nbsp; No
+                    </div>
+
+                    <div class="form-group" id="post-wall" style="display: none;">
+                      <label>Do You Require Post Mount or Wall Mount ?</label><br>
+                      <input type="radio" name="mount" class="Mount_click img-1" value="post"> &nbsp;&nbsp; Wall Mount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="radio" name="mount" class="Mount_click img-2" value="wall"> &nbsp;&nbsp; Post Mount
+                    </div>
+
+                    <div class="form-group" id="post-code" style="display: none;">
+                      <label>Do You Require Post Code ?</label><br>
+                      <input type="radio" name="gender" value="male" class="form-control post_code aa"> &nbsp;&nbsp; Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="radio" name="gender" value="female" class="form-control post_code bb"> &nbsp;&nbsp; No
+                      <div class="" id="post_textbox">
+                        <input type="text" name="street-name" class="form-control" placeholder="Post Code" id="">
+                      </div>
+                      
+                    </div>
+
+                    <div id="street-name" style="display: none">
+                      <div class="form-group" id="street-name" >
+                        <label>Street Name</label><br>
+                        <input type="text" name="street-name" class="form-control" placeholder="Type Street Name">
+                      </div>
+
+                      <div class="form-group" style="margin-bottom: 0px;">
+                        <input type="submit" name="street-name" class="form-control" placeholder="Type Street Name" required="" value="Add to Cart">
+                      </div>
+                    </div>
+
+                    
+
+                  </div>
+                  <div class="col-xs-12 col-sm-6 right-side">
+                    <div class="" id="img_id_1">
+                      <img src="http://utilityitsolutions.com/wp/city-state/images/plate-1.png" class="img-responsive">
+                    </div>
+
+                    <div class="" id="img_id_2" style="display: none">
+                      <img src="http://utilityitsolutions.com/wp/city-state/images/post-mount-plate.png" class="img-responsive">
+                    </div>
+
+                    <div class="" id="img_id_3" style="display: none">
+                      <img src="http://utilityitsolutions.com/wp/city-state/images/road-symbol-plate.png" class="img-responsive">
+                    </div>
+
+                    <div class="" id="img_id_4" style="display: none">
+                      <img src="http://utilityitsolutions.com/wp/city-state/images/post-no-raod-symbol.png" class="img-responsive">
+                    </div>
+
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!--<div class="col-xs-12 col-sm-12 right">
+            <div class="inner-right">
+              <div class="img-cont">
+                <img src="images/frame-2.png" class="img-responsive" />
+              </div>
+              <div class="amout">
+                 <sapn></span> 25
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="clearfix"></div>
+  <section>
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="heading-1">About Us</h1>
+            <p>At N-Sign Ltd we manufacture street nameplates to any local
+              authority specification, although we have our standard format
+              that covers the majority of local authorities. Our service offers
+              both wall mounted plates and free-standing plates. We also
+              produce other signs at our factory (such as road sign-age, and
+              site signs) we have geared our production for street
+              nameplates
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section>
+    <div class="about name-plates wow fadeInDown">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+          <h1 class="heading-1">Our Street Name Plates</h1>
+          </div>
+          <div class="col-xs-12 col-sm-6"><p>Our sign trays are made from polycarbonate; the tray is
+              fastened to two stainless steel posts with our vandal proof
+              system. The face panels are reverse lettered on anti-glare
+              polycarbonate, which is fitted into the tray using our own
+              integral clip system and VHB tape.</p>
+              <p>
+              The plates have been tested in high vandalism areas and
+              we have ‘put it through the mill’ and have had no
+              problems. We can also produce any logo on our plates (for
+              example council emblem). The signs are available at 1120
+              x 150mm and 1120 x 285mm.
+              TYPE YOUR STREET NAME HERE
+              Street Name Plates
+              Home Name Plates About us Contact us Long in/Register
+              Add to Basket
+              Contact
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <img src="images/img-1.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------ Start Div 2 ------------------------ -->
+  <section>
+    <div class="div-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 item">
+            
+          </div>
+          <div class="col-xs-12 col-sm-4 item">
+            
+          </div>
+          <div class="col-xs-12 col-sm-4 item">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------ End Div 2 -------------------------- -->
+
+  <div class="scrollup" style="display: block;"></div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <h1>N-Sign Trophies</h1>
+          <p>Mark a special occasion with a trophy from N-Sign.</p>
+          <p>Buy trophies at competitive prices at: 
+            <a href="http://www.trophies.n-sign.co.uk/">http://www.trophies.n-sign.co.uk/</a>
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <h1>Contact Us</h1>
+          <p>N-Sign, Sign House, Maritime Road, Stockton-On-Tees, TS18 2EZ.</p>
+          <a href="tel:01642 800 222" style="color: #ffffff;">01642 800 222</a><br>
+          <a href="mailto:enquiries@n-sign.co.uk" style="color: #ffffff;">enquiries@n-sign.co.uk</a>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 text-right">
+          <h1>Social Links</h1>
+          <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p class="copy-right">© 2018 N-sign <a href="https://www.n-sign.co.uk/">Designed by Phunky Moo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/wow .js"></script>
+  
+  <script type="text/javascript">
+    
+        $(function () {
+          $(".post_wall").click(function () {
+              if ($(this).is(":checked")) {
+                  $("#post-wall").show(500);
+              } else {
+                  $("#post-wall").hide();
+              }
+          });
+        });
+
+
+        $(function () {
+          $(".Mount_click").click(function () {
+              if ($(this).is(":checked")) {
+                  $("#post-code").show(500);
+              } else {
+                  $("#post-code").hide();
+              }
+          });
+        });
+
+
+        // Post Code
+        $(function () {
+          $(".post_code").click(function () {
+              if ($(this).is(":checked")) {
+                  $("#street-name").show(500);                      
+              }
+          });
+        });
+
+        // $(function () {
+        //   $(".post_code").click(function () {
+        //       if ($(this).is(":checked")) {
+        //           $("#street-name").show(500);
+                  
+        //       }
+        //   });
+        // });
+
+
+        // $(function () {
+        //   $(".aa").click(function () {
+        //       if ($(this).is(":checked")) {
+        //           $("#post_textbox").show(500);
+        //       }
+        //   });
+        // });
+
+        $(function () {
+          $(".bb").click(function () {
+              if ($(this).is(":checked")) {
+                  $("#post_textbox").hide(500);
+              }
+          });
+        });
+
+        $(function () {
+          $(".aa").click(function () {
+              if ($(this).is(":checked")) {
+                  $("#post_textbox").show(500);
+              }
+          });
+        });
+        // Post Code
+  </script>
+
+ 
+  <script type="text/javascript">
+    $(function () {
+      $(".img-1").click(function () {
+          if ($(this).is(":checked")) {
+              $("#img_id_1").hide(500);
+              $("#img_id_2").hide(500);
+              $("#img_id_3").show(500);
+              $("#img_id_4").hide(500);
+          }
+      });
+    });
+
+
+    $(function () {
+      $(".img-2").click(function () {
+          if ($(this).is(":checked")) {
+            $("#img_id_4").show(500);
+            $("#img_id_2").hide(500);
+            $("#img_id_1").hide();
+            $("#img_id_3").hide();
+          }
+      });
+    });
+
+
+    // For Road Symbol
+    $(function () {
+      $(".road-symbol").click(function () {
+          if ($(this).is(":checked")) {
+              $("#img_id_3").show(500);
+              $("#img_id_1").hide(500);
+              $("#img_id_2").hide(500);
+              $("#img_id_4").hide(500);
+          }
+      });
+    });
+
+
+    $(function () {
+      $(".road-symbol-no").click(function () {
+          if ($(this).is(":checked")) {
+            $("#img_id_1").show(500);
+            $("#img_id_3").hide();
+            $("#img_id_2").hide();
+            $("#img_id_4").hide();
+          }
+      });
+    });
+    // For Road Symbol
+
+
+
+   $(function () {
+     $('#price').hide();
+     $('#council').hide();
+       $('#council_select').change(function () {
+           $('#council').hide();
+           if (this.options[this.selectedIndex].value == 'parcel') {
+               $('#council').show();
+           }
+       });
+   });
+
+   $(function () {
+     $('#price').hide();
+     $('#council').hide();
+       $('#council_select').change(function () {
+           $('#council').hide();
+           if (this.options[this.selectedIndex].value == 'parcel') {
+               $('#council').show();
+           }
+       });
+   });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('input.post_wall[type="radio"]').click(function(){
+            var inputValue = $(this).attr("value");
+            $("." + inputValue).toggle();
+        });
+    });
+
+
+    $(function () {
+      $(".chkPassport").click(function () {
+          if ($(this).is(":checked")) {
+              $("#dvPassport").show(500);
+              //$("#AddPassport").hide();
+          } else {
+              $("#dvPassport").hide();
+              //$("#AddPassport").show();
+          }
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+

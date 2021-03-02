@@ -1,0 +1,8 @@
+<svg height="500" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline points="42,42 400,40 400,80 440,80 440,180 400,180 400, 220 40, 220 40, 180 40, 180 0, 180 0, 180 0, 80 40, 80 40, 40 0" style="fill:white;stroke:red;stroke-width:4" />
+    <image xlink:href="http://utilityitsolutions.com/wp/nsign/assets/backend/uploads/council-logo/logo-3.png" height="60" width="60" x="10" y="100"/>
+  <text text-anchor="middle" x="210" y="120" font-size="30">Tilan Nagar Indore</text>
+  <text text-anchor="middle" x="210" y="155" font-size="30">Madhya Pradesh</text>
+    <image xlink:href="http://utilityitsolutions.com/wp/nsign/assets/backend/uploads/council-logo/Road-symbol.png" height="60" width="60" x="370" y="100"/>
+  Sorry, your browser does not support inline SVG.
+</svg>

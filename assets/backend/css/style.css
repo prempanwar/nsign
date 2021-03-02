@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,600i,700,700i,900');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+@font-face {
+    font-family: "arial";
+    src: url("../../frontend/fonts/arial.ttf");
+}
+@font-face {
+    font-family: "arialbd";
+    src: url("../../frontend/fonts/arialbd.ttf");
+}
+@font-face {
+    font-family: "GillSansStd-Bold";
+    src: url("../../frontend/fonts/GillSansStd-Bold.otf");
+}
+@font-face {
+    font-family: "kindersley";
+    src: url("../../frontend/fonts/Kindersley.ttf");
+}
+@font-face {
+    font-family: "KINDGARG";
+    src: url("../../frontend/fonts/Kindersley-Grand-Arcade/KINDGARG.ttf");
+}
+@font-face {
+    font-family: "transporth";
+    src: url("../../frontend/fonts/transporth.ttf");
+}
